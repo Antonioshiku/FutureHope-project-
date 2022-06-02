@@ -120,7 +120,9 @@
       right:220px;
       border-radius: 5px;
       border: 1px solid gainsboro;
+      background-color: aliceblue;
       display: none;
+      z-index: 4;
 }
 .drop_div ul{
      display: flex;
@@ -205,9 +207,10 @@
       height: 100vh;
       position: absolute;
       background-color: white;
-      top: 89px;
       right: 0px;
       z-index: 2;
+      transform: translateX(60px) translateY(36px);
+      opacity: 0;
 }
 .main_phone_menu ul{
         display: flex;
@@ -238,6 +241,26 @@
        font-size: 23px;
 }
 
+#X_logo{
+     font-size: 30px;
+     position: absolute;
+     right: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -266,8 +289,18 @@
     transition: all .5s ease-in;
     transform: translateX(0px);
 }
-
-
+.show_menu_site{
+       opacity: 1;
+       transition: all .5s ease-out;
+       transform-origin: right;
+       transform: translateX(0px) translateY(0px);
+}
+.hide_menu_site{
+         opacity: 0;
+         transition: all .5s ease-in;
+         transform-origin: left;
+         transform: translateX(130px) translateY(36px);
+}
 
 
 
@@ -325,7 +358,17 @@
      .main_phone_menu{
         display: block;
   }
-  
+  .carousel-caption p{
+    font-family: var(--font-family);
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.carousel-caption h1{
+    font-size: 36px;
+    font-family: var(--font-family);
+    font-weight: bold;
+}
 
 
 }

@@ -7,7 +7,7 @@
               
       <img src="/Project 2 ( May )/Slider Photos/slider1.jpg" class="d-block w-100" alt="...">
 
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption  d-md-block">
       <p>Create your child's future brighter with us.</p>
         <h1>WE EDUCATE THE FATURE.</h1>
         <button>Contant Us</button>
@@ -15,7 +15,7 @@
     </div>
     <div class="carousel-item">
       <img src="/Project 2 ( May )/Slider Photos/slider2.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption  d-md-block">
         <p>Create your child's future brighter with us.</p>
         <h1>WE EDUCATE THE FATURE.</h1>
         <button>Contant Us</button>
@@ -23,7 +23,7 @@
     </div>
     <div class="carousel-item">
       <img src="/Project 2 ( May )/Slider Photos/slider3.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption  d-md-block">
       <p>Create your child's future brighter with us.</p>
         <h1>WE EDUCATE THE FATURE.</h1>
         <button>Contant Us</button>

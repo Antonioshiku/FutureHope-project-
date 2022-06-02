@@ -85,19 +85,16 @@
         <!-- Phone menu site  -->
 
         <div class="main_phone_menu"> 
-               
+        <i id="X_logo" class="bi bi-x-lg"></i>
         <ul>
                   <li><a href="#">Home</a></li>
                   <li><a href="#">About Us</a></li>
                   <li><a href="#">Courses</a>
-                  <i class="bi bi-caret-right"></i></li>
-                     <div class="drop_div">
-                         <ul>
+                  
                              <li><a href="#">Primary</a></li>
                              <li><a href="#">Secondary</a></li>
                              <li><a href="#">SummerProgramm</a></li>
-                         </ul>
-                     </div>
+                   
                   <li><a href="#">Activies</a></li>
              </ul>
           
