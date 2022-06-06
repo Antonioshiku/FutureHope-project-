@@ -7,6 +7,8 @@
 
 <?php require 'carousel.php' ?>
 
+<?php require  'form.php' ?>
+
 
 
 
