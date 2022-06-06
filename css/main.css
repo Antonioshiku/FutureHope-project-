@@ -209,7 +209,7 @@
       background-color: white;
       right: 0px;
       z-index: 2;
-      transform: translateX(60px) translateY(36px);
+      transform: translateX(20px) translateY(46px);
       opacity: 0;
 }
 .main_phone_menu ul{
@@ -299,7 +299,7 @@
          opacity: 0;
          transition: all .5s ease-in;
          transform-origin: left;
-         transform: translateX(130px) translateY(36px);
+         transform: translateX(30px) translateY(36px);
 }
 
 

@@ -10,6 +10,7 @@
     <link rel="short icon" href="./Project 2 ( May )/favicon.ico">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/contant_footer.css">
 
     <!-- bootstrap icons link -->
     <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">

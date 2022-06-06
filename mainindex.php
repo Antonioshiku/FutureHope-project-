@@ -9,7 +9,7 @@
 
 <?php require  'form.php' ?>
 
-
+<?php  require 'Contant_footer.php'  ?> 
 
 
 <?php require 'footer.php'  ?>

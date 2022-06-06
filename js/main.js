@@ -51,3 +51,17 @@ function phoneMenu() {
                menuSite.classList.add('hide_menu_site');
   }
 }
+
+
+window.addEventListener('scroll' , () => {
+           
+      if (window.scrollY >243) {
+  let mainNavCon=document.querySelector('.main_nav_con');
+  mainNavCon.classList.add('show_nav')
+
+      } else {
+  mainNavCon.classList.remove('show_nav')
+
+      }
+
+})

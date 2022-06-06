@@ -1,0 +1,234 @@
+
+:root{
+     --font-family:'Poppins';
+}
+.main_footer{
+     width: 100%;
+     height: 60vh;
+     display: grid;
+     grid-template-columns: 30%  25% 15% 30%;
+     
+     
+}
+.logo_div{
+         height: 100%;
+         display: flex;
+         align-items: center;
+         margin-left: 20px;
+        
+}
+.logo_div p{
+     font-family: var(--font-family);
+     font-size: 17px;
+}
+.logo_div div > i{
+        font-size: 24px;
+        
+}
+.Touch_div{
+      height: 100%;
+      display: flex;
+      align-items: center;
+      margin:30px 0px 0px 12px ;
+      
+}
+.Touch_div h4{
+     color: rgb(247, 163, 7);
+     font-family: var(--font-family);
+     font-size: 21px;
+     padding-bottom: 20px;
+}
+.logo_class i{
+     font-size: 19px;
+     color:rgb(247, 163, 7) ;
+     padding-right: 6px;
+}
+.address_class {
+     padding-left: 10px;
+}
+.address_class p{
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+.address_class span{
+     font-size: 14px;
+     font-family: var(--font-family);
+}
+.Quick_links{
+       display: flex;
+       align-items: center;
+       height: 100%;
+      margin-top: 30px;
+
+}
+.Quick_links h4{
+      color: rgb(247, 163, 7);
+      font-family: var(--font-family);
+
+}
+.Quick_links ul{
+     height: 80%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+}
+.Quick_links ul li{
+     list-style: none ;
+}
+.Quick_links ul li a{
+     text-decoration: none;
+     font-family: var(--font-family);
+     font-size: 17px;
+     color: black;
+     font-weight: bold;
+}
+.News_letter{
+     display: flex;
+     align-items: center ;
+     margin-left: 20px;
+}
+.News_letter h4{
+     color:rgb(247, 163, 7) ;
+     font-family: var(--font-family);
+}
+
+.News_letter div > div{
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+.News_letter div >div input{
+    width: 120%;
+    height: 41px;
+    border: none;
+    background-color: rgb(211, 220, 220);
+    opacity: .8;
+    margin-top: 20px;
+    border-radius: 4px;
+    padding-left: 10px;
+    color: black;
+    font-family: var(--font-family);
+
+}
+.News_letter div >div input:focus{
+        outline: none;
+}
+.News_letter div >div button{
+     width: 120%;
+     margin-top: 20px;
+     height: 41px;
+     border: none;
+     background-color:rgb(247, 163, 7) ;
+     color: white;
+     font-family: var(--font-family);
+     border-radius: 22px;
+}
+.copy_right_div{
+      width: 100%;
+      border-top: 1px solid gray;
+      padding: 10px 30px 0px 30px;
+      text-align: center;
+}
+.copy_right_div span{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:660px){
+
+ 
+      .main_footer{
+           display: flex;
+           flex-direction: column;
+        justify-content: space-evenly;
+           height: 110vh;
+           width: 100%;
+      }
+      .logo_div{
+           width: 90%;
+           height: 40%;
+           text-align: center;
+      }
+     .logo_div div > div {
+           width: 80%;
+           margin: 0 auto;
+     }
+     .Touch_div{
+          width: 100%;
+     }
+     .Touch_div h4{
+          text-align: center;
+          font-size: 24px;
+     }
+     .logo_class{
+          padding-left: 10px;
+     }
+     .Quick_links{
+          width: 100%;
+          height: 50vh;
+          margin-top: 40px;
+          display: none;
+     }
+     .News_letter div{
+          width: 90%;
+     }
+     .News_letter h4{
+          text-align: center;
+     }
+     .News_letter div > div{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+}
+.News_letter div >div input{
+    width: 120%;
+    height: 51px;
+    border: none;
+    background-color: rgb(211, 220, 220);
+    opacity: .8;
+    margin-top: 20px;
+    border-radius: 4px;
+    padding-left: 10px;
+    color: black;
+    font-family: var(--font-family);
+
+}
+.News_letter div >div input:focus{
+        outline: none;
+}
+.News_letter div >div button{
+     width: 120%;
+     margin-top: 20px;
+     height: 41px;
+     border: none;
+     background-color:rgb(247, 163, 7) ;
+     color: white;
+     font-family: var(--font-family);
+     border-radius: 22px;
+}
+
+ 
+}
