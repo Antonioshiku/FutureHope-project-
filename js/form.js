@@ -74,3 +74,15 @@ function RegistentionForm() {
 
 
 }
+
+
+
+// if  (window.screen.width>818 && window.screen.width<1100) {
+  
+//     let formMain=document.querySelector('.main_con');
+//     formMain.classList.add('show_main_form')
+
+
+// } else {
+//     console.log("error");
+// }

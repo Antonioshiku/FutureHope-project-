@@ -54,12 +54,13 @@ function phoneMenu() {
 
 
 window.addEventListener('scroll' , () => {
+  let mainNavCon=document.querySelector('.main_nav_con');
            
       if (window.scrollY >243) {
-  let mainNavCon=document.querySelector('.main_nav_con');
   mainNavCon.classList.add('show_nav')
 
       } else {
+
   mainNavCon.classList.remove('show_nav')
 
       }

@@ -46,7 +46,7 @@
          width: 100%;
           margin-top: 20px;
           display: grid;
-          grid-template-columns: 20% 55% 20%;
+          grid-template-columns: 20% 50% 15% 15%; 
 }
 .school_logo{
          margin-left: 20px;
@@ -112,6 +112,21 @@
 }
 .register_login a:hover{
    color:  #0477bf;
+}
+
+.User_name{
+      height: 73%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.User_name i{
+           font-size: 26px;
+           color: #0477bf;
+}
+.User_name span{
+      font-family: var(--font-family);
+      padding-left: 5px;
 }
 .drop_div{
       width: 220px;
@@ -301,6 +316,13 @@
          transform-origin: left;
          transform: translateX(30px) translateY(36px);
 }
+.show_nav{
+       position: fixed;
+       transition: all .6s ease-in;
+       background-color: white;
+       z-index: 5;
+       top: -20px;
+}
 
 
 
@@ -369,6 +391,11 @@
     font-family: var(--font-family);
     font-weight: bold;
 }
-
+.User_name {
+     display: none;
+}
+.main_menu{
+     transform: translateY(-7px);
+}
 
 }

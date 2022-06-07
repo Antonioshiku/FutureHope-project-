@@ -1,0 +1,368 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.padding {
+    padding: 80px 200px;
+}
+
+/* abt starts */
+
+
+.abt_us_container{
+    /* background-color: antiquewhite; */
+    display: flex;
+}
+.abt_img{
+    /* padding: 20px; */
+    flex: 1;
+    /* background-color: red; */
+    /* width: 35vw; */
+}
+.abt_img img{
+    width: 100%;
+    border-radius: 20px;
+    /* width: 38vw; */
+}
+.abt_words{
+    flex: 1;
+    /* background-color: aqua; */
+    padding: 10% 5%  0 5%;
+    /* display: flex; */
+    flex-direction: column;
+}
+.abt_words p{
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration:  2px underline #f29422; 
+}
+.abt_words .long{
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 35px;
+
+}
+.abt_words button{
+    background-color: #f29422;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 16px ;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+    /* width: 6vw; */
+}
+.abt_words button:hover{
+    background-color: white;
+    border: 2px solid #f29422;
+    color: #f29422;
+}
+
+/* abt ends */
+
+/* courses starts */
+
+.small{
+    display: none;
+}
+.courses_container{
+    /* display: flex; */
+    padding: 30px 0;
+}
+
+.primary{
+    display: flex;
+    background-color: #0477bf;
+    
+}
+.primary .primary_img{
+    flex: 1;
+}
+.primary .summer_img{
+    flex: 1 ;
+}
+
+.primary .primary_words{
+    flex: 1;
+    padding: 40px;
+    color: white;
+}
+.primary_words .small{
+    display: none;
+}
+.primary_words h3{
+    text-decoration: underline #f29422 ;
+    padding-bottom: 25px;
+    font-size: 35px;
+
+}
+.primary_words button{
+    background-color: #f29422;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 50px;
+    /* margin-top: 10px; */
+    border: #f29422 solid 2px;
+
+}
+.primary_words button:hover{
+    background-color: #0477bf;
+    color: #f29422;
+    border: #f29422 solid 2px;
+}
+
+.secondary{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    background-color: #f29422;
+}
+ .seconday_img{
+    flex: 1;
+}
+
+.secondary .secondary_words{
+    flex: 1;
+    padding: 40px;
+    color: white;
+}
+.secondary_words h3{
+    text-decoration: underline #f29422 ;
+    padding-bottom: 25px;
+    font-size: 35px;
+
+}
+
+.secondary_words button{
+    background-color: #0477bf;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 50px;
+    border: #0477bf solid 2px;
+
+    /* margin-top: 10px; */
+}
+.secondary_words button:hover{
+    background-color: #f29422;
+    color: #0477bf;
+    border: #0477bf solid 2px;
+}
+
+.courses_container h1{
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: underline #f29422;
+}
+
+
+/* courses ends */
+
+/* activities starts */
+
+.activities_container{
+    padding: 20px 190px;
+    /* display: flex; */
+}
+.activities_container h1{
+    text-align: center;
+    text-decoration: underline #f29422;
+    padding-bottom: 50px;
+}
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 20px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {
+      margin: 0 -5px;
+    /* margin-bottom: 35px; */
+    /* padding: 0 50px 20px 0 ; */
+    /* background-color: red; */
+}
+    .column{
+        padding: 20px;
+        /* background-color: #0477bf; */
+    }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .card a{
+      text-decoration: none;
+      background-color: #f29422;
+      color: white;
+      /* border-radius: 50px; */
+      /* margin: 0 100px 18px 100px; */
+      padding: 5px 10px;
+      border: 2px  solid #f29422;
+  }
+  .card a:hover{
+      background-color:#f2942223 ;
+      color: #f29422;
+      border: 2px  solid #f29422;
+  }
+  .card p{
+      font-size: 14px;
+      padding: 5px;
+  }
+  .card_img{
+      object-fit: cover;
+  }
+    /* Style the counter cards */
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        /* padding: 16px; */
+        text-align: center;
+        background-color:#f2942223;
+      }
+
+
+
+
+
+/* activities ends */
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .activities_container{
+        padding: 20px 100px;
+    }
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .abt_us_container{
+      display: flex;
+      flex-direction: column;
+  }
+  .abt_us{
+      padding: 80px 50px;
+  }
+  .abt_words .long{
+      display: none;
+  }
+  .abt_words .small{
+      display: block;
+      text-decoration: none;
+  }
+  .card p{
+      font-size: 12px;
+  }
+  .card h3{
+      font-size: 20px;
+      padding-top: 10px;
+  }
+  .card a{
+      font-size: 14px;
+  }
+  .activities_container{
+      padding: 16px 50px;
+      /* display: flex; */
+  }
+
+  .primary{
+    display: flex;
+    flex-direction: column;
+}
+.secondary{
+    display: flex;
+    flex-direction: column;
+}
+.primary_img .seconday_img, .summer_img{
+    width: 100%;
+}
+.primary .primary_img img , .secondary .seconday_img img , .primary .summer_img img{
+    width: 100%;
+}
+.primary_words h3, .secondary_words h3{
+    font-size: 28px;
+}
+.primary_words p, .secondary_words p{
+    font-size: 12px;
+}
+.primary_words button, .secondary_words button{
+    font-size: 12px;
+}
+.primary_words .big, .secondary_words .big{
+    display: none;
+}
+.primary_words .small, .primary_words .small{
+    display: block;
+}
+}
+
+
+
+@media all and (min-width:768px) and (max-width:1063px) {
+    .abt_us_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .abt_words .small{
+        display: none;
+    }
+    .small {
+        display: block;
+    }
+    .secondary_words .big{
+        display: none;
+    }
+    .primary_words .small{
+        display: block;
+    }
+    .primary_words .big{
+        display: none;
+    }
+    .primary_words h3, .secondary_words h3{
+        font-size: 28px;
+    }
+
+    .activities_container{
+        padding: 20px 80px;
+        /* display: flex; */
+    }
+    .card p{
+        font-size: 10px;
+
+    }
+    .card h3{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .card a{
+        font-size: 12px;
+    }
+
+    .primary{
+        display: flex;
+        flex-direction: column;
+    }
+    .secondary{
+        display: flex;
+        flex-direction: column;
+    }
+    .primary_img .seconday_img, .summer_img{
+        width: 100%;
+    }
+    .primary .primary_img img , .secondary .seconday_img img , .primary .summer_img img{
+        width: 100%;
+    }
+
+    .primary_words h3{
+        /* font-size: 18px; */
+    }
+}
+
