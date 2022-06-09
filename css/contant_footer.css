@@ -7,8 +7,6 @@
      height: 60vh;
      display: grid;
      grid-template-columns: 30%  25% 15% 30%;
-     
-     
 }
 .logo_div{
          height: 100%;
@@ -157,20 +155,22 @@
 
 
 
-@media(max-width:660px){
+@media all and (max-width:660px){
 
  
       .main_footer{
-           display: flex;
-           flex-direction: column;
-        justify-content: space-evenly;
-           height: 110vh;
-           width: 100%;
+           display: grid;
+           height: 100vh;
+           grid-template-columns: auto auto auto;
+           
+           grid-template-rows: 48% auto;
       }
       .logo_div{
            width: 90%;
-           height: 40%;
+           height: 60%;
            text-align: center;
+           margin-top: 10px;
+
       }
      .logo_div div > div {
            width: 80%;
@@ -178,6 +178,7 @@
      }
      .Touch_div{
           width: 100%;
+          align-items: flex-start;
      }
      .Touch_div h4{
           text-align: center;
@@ -192,6 +193,10 @@
           margin-top: 40px;
           display: none;
      }
+     .News_letter{
+          grid-row: 2 / span 1;
+          grid-column: 1 /span 3;
+     }
      .News_letter div{
           width: 90%;
      }
@@ -202,10 +207,12 @@
         height: 100%;
         display: flex;
         flex-direction: column;
+        align-items:center;
+        justify-content: center;
 }
 .News_letter div >div input{
-    width: 120%;
-    height: 51px;
+    width: 90%;
+    height: 71px;
     border: none;
     background-color: rgb(211, 220, 220);
     opacity: .8;
@@ -214,21 +221,113 @@
     padding-left: 10px;
     color: black;
     font-family: var(--font-family);
+    margin-left: 40px;
 
 }
 .News_letter div >div input:focus{
         outline: none;
 }
 .News_letter div >div button{
-     width: 120%;
+     width: 90%;
      margin-top: 20px;
-     height: 41px;
+     height: 61px;
      border: none;
      background-color:rgb(247, 163, 7) ;
      color: white;
      font-family: var(--font-family);
      border-radius: 22px;
-}
+    margin-left: 40px;
+     
+} 
 
  
+}
+
+
+@media(max-width:786px){
+            .main_footer{
+                  width: 100%;
+                  height: 100vh;
+                  display: grid;
+                  grid-template-columns: auto auto auto;
+                  
+                  grid-template-rows: 48% auto;
+            }
+          
+            .logo_div{
+               width: 90%;
+               height: 60%;
+               text-align:center;
+               margin-top: 10px;
+    
+          }
+         .logo_div div > div {
+               width: 80%;
+               margin: 0 auto;
+         }
+         .Touch_div{
+          width: 100%;
+          align-items: flex-start;
+     }
+     .Touch_div h4{
+          text-align: start;
+          font-size: 24px;
+     }
+            .Quick_links{ 
+                 display: none;
+            }
+            .News_letter{
+                  grid-row: 2 /span 1;
+                  grid-column: 1/ span 3;
+                  width: 100%;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items:center;
+                  margin-top: 10px;
+                 
+            }
+
+            .News_letter div{
+               width: 90%;
+          }
+          .News_letter h4{
+               text-align: center;
+          }
+          .News_letter div > div{
+             height: 100%;
+             display: flex;
+             flex-direction: column;
+             align-items:center;
+             justify-content: center;
+     }
+     .News_letter div >div input{
+         width: 90%;
+         height: 75px;
+         border: none;
+         background-color: rgb(211, 220, 220);
+         opacity: .8;
+         margin-top: 20px;
+         border-radius: 4px;
+         padding-left: 10px;
+         color: black;
+         font-family: var(--font-family);
+         margin-left: 40px;
+     
+     }
+     .News_letter div >div input:focus{
+             outline: none;
+     }
+     .News_letter div >div button{
+          width: 90%;
+          margin-top: 20px;
+          height: 71px;
+          border: none;
+          background-color:rgb(247, 163, 7) ;
+          color: white;
+          font-family: var(--font-family);
+          border-radius: 22px;
+         margin-left: 40px;
+          
+     } 
 }

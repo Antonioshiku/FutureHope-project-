@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font link -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik&display=swap');
+        </style>
+ 
+       <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/form.css">
+    <title>Future Register Form</title>
+</head>
+<body>
+    
+<!--  form section -->
+
+<div class="main_con">
+
+    <!-- Welcome text to be displayed before login! -->
+ 
+    <div class="welcome_text d-none">
+ 
+       <div class="inner_text">
+          <p>Welcome From</p>
+          <h1>Future Hope</h1>
+          <p>Enter your personal details and start your future step.</p>
+          <span>Already have an account? <span id="Log">Login</span></span>
+       </div>
+ 
+ 
+    </div>
+      
+ 
+    <!-- Welcome text to be displayed after login! -->
+ 
+    <div class="welcome_text">
+ 
+       <div class="inner_text">
+          <p>Welcome back From</p>
+          <h1>Future Hope</h1>
+          <p>Choose the lessons for elementary and middle school that are best for your child.</p>
+                             
+        <p>I' don't have any account. <a style="color: orange;" href="./register.html">Register</a></p>
+       </div>
+ 
+ 
+    </div>
+      
+ 
+ 
+    <!-- register form section -->
+    <div class="form_section">
+       <h4 id="Reg_text" class="d-none">Register Here</h4>
+       <form class="d-none" action="" method="POST" enctype="multipart/form-data">
+ 
+ 
+          <input type="text" require name="username" id="username" placeholder="Full Name">
+          <input type="email" name="useremail" id="useremail" placeholder="Email Address">
+          <input type="password" name="userpassword" id="userpassword" placeholder="Password">
+          <input type="password" name="repassword" id="repassword" placeholder="Confirm-Password">
+ 
+ 
+          <button id="Log_button">Sign Up</button>
+ 
+          <!-- register form section End! -->
+ 
+       </form>
+ 
+ 
+       <!-- LOg in form section! -->
+
+       <h4 id="Log_text" >Log In Here</h4>
+ 
+       <form class="" action="" method="POST" enctype="multipart/form-data">
+ 
+ 
+          <input type="email" name="email" id="useremail" placeholder="Email Address">
+          <input type="password" name="password" id="userpassword" placeholder="Password">
+ 
+ 
+          <button id="Reg_button">Submit</button>
+ 
+          <!-- register form section End! -->
+ 
+       </form>
+ 
+ 
+ 
+       <!-- Log in form section End! -->
+ 
+ 
+ 
+    </div>
+ 
+ </div>
+
+
+    <script src="/js/form.js"></script>
+</body>
+</html>
