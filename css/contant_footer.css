@@ -82,6 +82,9 @@
      color: black;
      font-weight: bold;
 }
+
+
+
 .News_letter{
      display: flex;
      align-items: center ;
@@ -124,6 +127,16 @@
      font-family: var(--font-family);
      border-radius: 22px;
 }
+
+
+@media(max-width:2168px){
+     
+     .copy_right_div{
+            margin-top: 50px;
+     }
+
+}
+
 .copy_right_div{
       width: 100%;
       border-top: 1px solid gray;
